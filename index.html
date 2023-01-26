@@ -1,0 +1,87 @@
+<html lang="ru">
+    <head>
+        <title>Cat-food-page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/main.js"></script> 
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="fonts/Exo2.0-Thin.otf">
+    </head>
+    <body>
+        <main class="content">
+            <section class="products">
+                <h1 class="products__title">Ты сегодня покормил кота?</h1>
+                <ul class="products__items">
+                    <div class="item">
+                        <li class="card" id="card" onclick="myfunc(this)">
+                            <div class="card__inside">
+                                <div class="card__data">
+                                    <p class="card__head">Сказочное заморское яство</p>
+                                    <p class="card__title">Нямушка <span class="card__subtitle">с фуа-гра</span></p>
+                                    <p class="card__info"><b>10</b> порций <span>мышь в подарок</span> </p>
+                                </div>
+                                <div class="card__img">
+                                    <img src="img/Cat.png " alt="Кот">
+                                </div>
+                                <div class="card__weight">
+                                    <span class="card__weight-number">0,5 </span>кг
+                                </div>
+                            </div>                                        
+                        </li>
+                        <p class="card__caption">Чего сидишь? Порадуй котэ,
+                            <button class="card__caption-btn" type="button" onclick="myfunc(this)">
+                                <span class="card__caption-word">купи.</span>
+                            </button>
+                        </p>
+                        <p class="card__caption--hidden">
+                            Печень утки разварная с артишоками.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <li class="card" id="card" onclick="myfunc(this)">
+                            <div class="card__inside">
+                                <div class="card__data">
+                                    <p class="card__head" >Сказочное заморское яство</p>
+                                    <p class="card__title">Нямушка <span class="card__subtitle">с рыбой</span></p>
+                                    <p class="card__info"><b>40</b> порций <span>2 мыши в подарок</span> </p>
+                                </div>
+                                <div class="card__img">
+                                    <img src="img/Cat.png " alt="Кот">
+                                </div>
+                                <div class="card__weight">
+                                    <span class="card__weight-number">2</span>кг
+                                </div>
+                            </div>                                        
+                        </li>
+                        <p class="card__caption">Чего сидишь? Порадуй котэ,
+                            <button class="card__caption-btn" type="button"  onclick="myfunc(this)">
+                                <span class="card__caption-word">купи.</span>
+                            </button>
+                        </p>
+                        <p class="card__caption--hidden">
+                            Головы щучьи с чесноком да свежайшая сёмгушка.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <li class="card card--disabled" >
+                            <div class="card__inside">
+                                <div class="card__data">
+                                    <p class="card__head">Сказочное заморское яство</p>
+                                    <p class="card__title">Нямушка <span class="card__subtitle">с курой</span></p>
+                                    <p class="card__info"><b>100</b> порций <span>5 мышей в подарок</span><span>заказчик доволен</span> </p>
+                                </div>
+                                <div class="card__img">
+                                    <img src="img/Cat.png " alt="Кот">
+                                </div>
+                                <div class="card__weight">
+                                    <span class="card__weight-number">5</span>кг
+                                </div>
+                            </div>                                        
+                        </li>
+                        <p class="card__caption">Печалька, с курой закончился.</p>
+                    </div>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
